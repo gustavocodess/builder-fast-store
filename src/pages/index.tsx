@@ -6,7 +6,6 @@ import Hero from 'src/components/sections/Hero'
 import IncentivesHeader from 'src/components/sections/Incentives/IncentivesHeader'
 import IncentivesMock from 'src/components/sections/Incentives/incentivesMock'
 import ProductShelf from 'src/components/sections/ProductShelf'
-import ProductTiles from 'src/components/sections/ProductTiles'
 import { ITEMS_PER_SECTION } from 'src/constants'
 import { mark } from 'src/sdk/tests/mark'
 
