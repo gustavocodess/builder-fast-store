@@ -2,7 +2,7 @@ import { builder, BuilderComponent } from '@builder.io/react'
 
 builder.init('fb69033bbea342819bfa342974dfe1c9')
 
-const Page = (props: any) => {
+const Page = () => {
   return (
     <div style={{ width: '100%' }}>
       <BuilderComponent model="page" />
@@ -12,6 +12,7 @@ const Page = (props: any) => {
 
 export default Page
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function getStaticProps({ params }: any) {
   const page =
     (await builder

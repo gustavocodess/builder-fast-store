@@ -1,11 +1,11 @@
-import { Partytown } from '@builder.io/partytown/react'
-import { Builder } from '@builder.io/react'
+// import { Partytown } from '@builder.io/partytown/react'
+// import { Builder } from '@builder.io/react'
 
 import storeConfig from '../../../store.config'
 import GoogleTagManager from './GoogleTagManager'
 import VTEX from './vtex'
 
-const isString = (obj: unknown): obj is string => typeof obj === 'string'
+// const isString = (obj: unknown): obj is string => typeof obj === 'string'
 
 const gtmContainerId = storeConfig.analytics?.gtmContainerId
 
@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === 'development' && !includeGTM) {
 }
 
 function ThirdPartyScripts() {
-  const loadPartyTown = !(Builder.isEditing || Builder.isPreviewing)
+  // const loadPartyTown = !(Builder.isEditing || Builder.isPreviewing)
 
   return (
     <>
